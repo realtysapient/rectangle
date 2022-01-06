@@ -11,6 +11,7 @@ fn main() {
     };
     println!("The area of the rectangle is {}",area(&rect));
 }
+//mycoment
 
 fn area(rect:&Rectangle) -> u32 {
     rect.height * rect.width
